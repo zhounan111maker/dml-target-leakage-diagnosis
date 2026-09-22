@@ -12,7 +12,7 @@
 > pipeline reduced ATE bias by **73.75%**. Under a controlled ablation over **30 independent seeds**,
 > the improvement vanished completely (**−0.65%, p = 0.892**). The gain was target leakage.
 
-[Paper draft](paper.md) · [Diagnostic checklist](#5-diagnostic-checklist) · [Reproduce](#7-reproducibility)
+[📄 Paper (PDF)](paper.pdf) · [Paper (LaTeX source)](paper.tex) · [Markdown draft](paper.md) · [Diagnostic checklist](#5-diagnostic-checklist) · [Reproduce](#7-reproducibility)
 
 </div>
 
