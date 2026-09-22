@@ -20,10 +20,10 @@
 
 > [!NOTE]
 > **Origin of this repository.** This study grew out of auditing an earlier public project,
-> [`five-elements-causal-estimation`](https://github.com/zhounan111maker/five-elements-causal-estimation),
+> [`five-elements-causal-estimation-ARCHIVED`](https://github.com/zhounan111maker/five-elements-causal-estimation-ARCHIVED),
 > which reported an **89.8%** reduction in ATE error. That claim turned out to be a target-leakage
 > artifact. The predecessor repository is now **archived** and carries a published
-> [correction notice](https://github.com/zhounan111maker/five-elements-causal-estimation/blob/main/CORRECTION.md).
+> [correction notice](https://github.com/zhounan111maker/five-elements-causal-estimation-ARCHIVED/blob/main/CORRECTION.md).
 > This repository is the corrected, fully reproducible version of that work.
 
 ## 1. Background
