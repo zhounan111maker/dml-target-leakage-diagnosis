@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this diagnostic study, its code, or its results, please cite it as below."
+title: "Does Feature Engineering Improve ATE Estimation in Double Machine Learning? A Controlled Diagnostic Study on Target Leakage"
+abstract: >-
+  Adding five domain-derived features plus a dispersion index to a Double Machine Learning
+  pipeline reduced estimated ATE bias by 73.75% and collapsed the estimator's standard
+  deviation by 4.00x. Under a controlled ablation holding the feature set fixed and toggling
+  only the leakage channel, repeated over 30 independent random seeds, the improvement
+  vanished completely (-0.65%, paired t = -0.137, p = 0.892; 16/30 wins). The gain was
+  entirely attributable to target leakage: one derived feature was a deterministic function
+  of the untreated potential outcome Y(0). The study characterises the empirical signature of
+  leakage and distils the findings into a diagnostic checklist for practitioners.
+authors:
+  - family-names: Zhou
+    given-names: Nan
+    affiliation: "Independent Researcher"
+type: software
+license: MIT
+repository-code: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"
+url: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"
+version: 1.0.0
+date-released: "2026-09-27"
+keywords:
+  - causal inference
+  - double machine learning
+  - target leakage
+  - average treatment effect
+  - negative results
+  - reproducibility

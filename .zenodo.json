@@ -1,0 +1,34 @@
+{
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "title": "Does Feature Engineering Improve ATE Estimation in Double Machine Learning? A Controlled Diagnostic Study on Target Leakage",
+  "description": "<p><strong>A negative result, reported in full.</strong> Adding five domain-derived features plus a dispersion index to a Double Machine Learning (DML) pipeline reduced the bias of the estimated average treatment effect (ATE) by <strong>73.75%</strong> and collapsed the estimator's standard deviation by <strong>4.00&times;</strong> \u2014 a result that would ordinarily be reported as a methodological advance.</p><p>This study shows those gains were entirely attributable to <strong>target leakage</strong>: one derived feature was a deterministic function of the untreated potential outcome Y(0), which is unobservable by construction. Using a controlled ablation that holds the feature set fixed and toggles only the leakage channel, repeated over <strong>30 independent random seeds</strong>, the same features yield a bias change of <strong>&minus;0.65%</strong> (paired t = &minus;0.137, p = 0.892; 16/30 wins) once leakage is removed. The apparent improvement disappears completely.</p><p>The study further characterises the empirical <strong>signature of leakage</strong>. Sweeping leakage intensity &alpha; &isin; [0,1] over 11 levels, bias decreases monotonically while estimator dispersion collapses by 4.00&times; and the <em>reported</em> OLS standard error collapses by 4.65&times;. It is argued that a simultaneous large reduction in both bias and variance \u2014 particularly in reported standard errors \u2014 should be treated as a warning signal rather than evidence of success. A second, independent class of error in the same pipeline is documented: misdefinition of the ground-truth ATE, where using the control-group mean introduces a 3.53% error and treating the naive difference-in-means as theoretical truth inflates the target by 81.16%.</p><p>Findings are distilled into a diagnostic checklist for practitioners building feature sets for causal inference.</p><p><strong>This deposit contains:</strong> the manuscript (PDF and LaTeX source), the full reproduction code (<code>src/</code>), cached results (<code>results/</code>), a self-contained executed demonstration notebook (<code>notebooks/</code>), and figure sources.</p>",
+  "creators": [
+    {
+      "name": "Zhou, Nan",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "publication_date": "2026-09-27",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "causal inference",
+    "double machine learning",
+    "target leakage",
+    "average treatment effect",
+    "negative results",
+    "reproducibility",
+    "EconML"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/zhounan111maker/five-elements-causal-estimation-ARCHIVED",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "The manuscript is a preprint and has not been peer reviewed. This deposit archives the version of record of the repository at tag v1.0.0, including the complete reproduction pipeline. The study originated from auditing an earlier public project that had reported an 89.8% reduction in ATE error; that claim was a target-leakage artifact, and the predecessor repository is archived with a correction notice."
+}

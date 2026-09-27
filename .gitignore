@@ -5,3 +5,13 @@ venv/
 .ipynb_checkpoints/
 *.egg-info/
 .DS_Store
+
+# LaTeX build residues
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
