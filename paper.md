@@ -1,7 +1,7 @@
 # Does Feature Engineering Improve ATE Estimation in Double Machine Learning?
 ### A Controlled Diagnostic Study on Target Leakage
 
-**Nan Zhou** (independent researcher)
+**Yipeng Ma** (Yinchuan University of Energy)
 
 ---
 
@@ -243,4 +243,4 @@ All randomness is seeded; `random_state=42` throughout the estimators, with inde
 
 ---
 
-*Manuscript prepared 2026-09-22. Corresponding author: Nan Zhou. This is independent work conducted without institutional affiliation or supervisor.*
+*Manuscript prepared 2026-09-22. Corresponding author: Yipeng Ma, Yinchuan University of Energy (3357424029@qq.com). The affiliation is given for identification only: Yinchuan University of Energy had no role in the design, execution, analysis, or interpretation of this study, and the work was carried out independently without a supervising author.*

@@ -11,9 +11,9 @@ abstract: >-
   of the untreated potential outcome Y(0). The study characterises the empirical signature of
   leakage and distils the findings into a diagnostic checklist for practitioners.
 authors:
-  - family-names: Zhou
-    given-names: Nan
-    affiliation: "Independent Researcher"
+  - family-names: Ma
+    given-names: Yipeng
+    affiliation: "Yinchuan University of Energy"
 type: software
 license: MIT
 repository-code: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"

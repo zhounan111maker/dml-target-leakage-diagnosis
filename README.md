@@ -294,8 +294,8 @@ Audit trail, including the original (faulty) pipeline and the step-by-step diagn
 ## 9. Citation
 
 ```bibtex
-@misc{zhou2026targetleakage,
-  author       = {Nan Zhou},
+@misc{ma2026targetleakage,
+  author       = {Yipeng Ma},
   title        = {Does Feature Engineering Improve ATE Estimation in DML?
                   A Controlled Diagnostic Study on Target Leakage},
   year         = {2026},
