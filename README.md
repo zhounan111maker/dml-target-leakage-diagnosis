@@ -177,7 +177,9 @@ dml-target-leakage-diagnosis/
 │   └── paper_tables.json      # all reported values, machine-readable
 ├── data/
 │   └── BankChurners.csv       # Kaggle Bank Customer Churn (see data/README.md)
-├── requirements.txt
+├── requirements.txt           # exact pins (v1.0.1+); provenance in REPRODUCTION.md
+├── REPRODUCTION.md            # what was regenerated, and how to check it
+├── .gitattributes             # line-ending policy
 ├── LICENSE
 └── README.md
 ```
@@ -256,6 +258,15 @@ The script prints Tables 1–2, writes all four figures as PDF and 300-dpi PNG, 
 `results/`. Finished fits are cached, so figures regenerate without re-running the models.
 
 All randomness is seeded (`random_state=42` within estimators; independent seeds across repetitions).
+
+### Reproduction record
+
+The results have been regenerated from a clean checkout of the released tag and compared
+against the published artifacts: all three files under `results/` came back **byte-for-byte
+identical** (exit 0; 16.3 min on Windows 11 / Python 3.13.14). The protocol, the exact
+environment the pins in `requirements.txt` were taken from, the blob hashes those results
+can be checked against, and the limits of the test — it is a self-reproduction, not an
+independent one — are recorded in [`REPRODUCTION.md`](REPRODUCTION.md).
 
 ### Minimal reproduction of the headline result
 

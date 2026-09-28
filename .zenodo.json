@@ -10,7 +10,7 @@
     }
   ],
   "publication_date": "2026-09-27",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "language": "eng",
   "access_right": "open",
   "license": "mit",
@@ -19,9 +19,9 @@
     "double machine learning",
     "target leakage",
     "average treatment effect",
+    "feature engineering",
     "negative results",
-    "reproducibility",
-    "EconML"
+    "reproducibility"
   ],
   "related_identifiers": [
     {
@@ -30,5 +30,5 @@
       "resource_type": "software"
     }
   ],
-  "notes": "The manuscript is a preprint and has not been peer reviewed. This deposit archives the version of record of the repository at tag v1.0.0, including the complete reproduction pipeline. The study originated from auditing an earlier public project that had reported an 89.8% reduction in ATE error; that claim was a target-leakage artifact, and the predecessor repository is archived with a correction notice."
+  "notes": "The manuscript is a preprint and has not been peer reviewed. This deposit archives the repository at the tag corresponding to this version, including the complete reproduction pipeline. Version 1.0.1 changes packaging only, not the manuscript or any reported number: it pins the exact dependency versions used to produce the results, adds an explicit line-ending policy, and corrects one erroneous keyword. The study originated from auditing an earlier public project that had reported an 89.8% reduction in ATE error; that claim was a target-leakage artifact, and the predecessor repository is archived with a correction notice."
 }

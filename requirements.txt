@@ -1,8 +1,24 @@
-pandas>=1.3.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-statsmodels>=0.13.0
-lightgbm>=3.3.0
-xgboost>=1.6.0
-matplotlib>=3.5.0
-scipy>=1.7.0
+# Exact versions required to reproduce the results in this repository.
+#
+# v1.0.0 listed these as lower bounds (`>=`). That does not pin the numerical
+# output: `src/paper_experiments.py` fixes the random seeds, but the fit of
+# scikit-learn's HistGradientBoostingRegressor is not guaranteed to be
+# bit-identical across versions, so a `>=` install can silently produce
+# different ATE estimates from the ones reported in the manuscript.
+#
+# From v1.0.1 the versions below are exact. The set is exactly what the source
+# imports — pandas, numpy, scikit-learn, statsmodels, lightgbm, xgboost,
+# matplotlib and scipy — and nothing else. In particular the repository does
+# not depend on EconML (or on `linearmodels`), despite the acronym in the
+# title: the DML implementation is self-contained in `src/dml.py`.
+#
+# Install with:  pip install -r requirements.txt
+
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+statsmodels==0.15.0
+lightgbm==4.7.0
+xgboost==3.4.1
+matplotlib==3.11.1
+scipy==1.18.1

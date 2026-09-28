@@ -1,0 +1,19 @@
+# Line-ending policy.
+#
+# Every tracked text file is stored in Git with LF line endings, but
+# `.gitattributes` was absent until v1.0.1, so that was an accident of history
+# rather than a stated policy. `* text=auto` states it.
+#
+# This adds no renormalisation commit: all 27 text blobs are already LF, so
+# nothing is rewritten. It only stops a future contributor whose
+# `core.autocrlf` is false from committing CRLF blobs that would silently
+# diverge from the ones already in the repository.
+#
+# What it deliberately does *not* do is pin the working-tree line ending. Git
+# still checks out with the platform's native ending (CRLF on Windows, LF
+# elsewhere). That is harmless here, because the artifacts under `results/`
+# are written with pandas `to_csv` and `json.dump`, both of which also use the
+# platform's native newline, so a regenerated artifact still matches the
+# checked-out one byte for byte on either platform. The reproduction record in
+# REPRODUCTION.md depends on exactly that property.
+* text=auto

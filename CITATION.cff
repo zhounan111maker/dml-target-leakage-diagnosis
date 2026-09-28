@@ -19,8 +19,8 @@ license: MIT
 repository-code: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"
 url: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"
 doi: "10.5281/zenodo.23000327"
-version: 1.0.0
-date-released: "2026-09-27"
+version: 1.0.1
+date-released: "2026-09-28"
 keywords:
   - causal inference
   - double machine learning
