@@ -4,13 +4,14 @@
 
 ### A Controlled Diagnostic Study on Target Leakage
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23000326.svg)](https://doi.org/10.5281/zenodo.23000326)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Reproducible](https://img.shields.io/badge/reproducible-seeded%20%2B%20cached-brightgreen)]()
 
-> **Negative result, reported in full.** Adding six domain-derived features to a Double Machine Learning
-> pipeline reduced ATE bias by **73.75%**. Under a controlled ablation over **30 independent seeds**,
-> the improvement vanished completely (**−0.65%, p = 0.892**). The gain was target leakage.
+> **Negative result, reported in full.** Adding five domain-derived features **plus a dispersion index** to a
+> Double Machine Learning pipeline reduced ATE bias by **73.75%**. Under a controlled ablation over
+> **30 independent seeds**, the improvement vanished completely (**−0.65%, p = 0.892**). The gain was target leakage.
 
 [📄 Paper (PDF)](paper.pdf) · [Paper (LaTeX source)](paper.tex) · [Markdown draft](paper.md) · [Diagnostic checklist](#5-diagnostic-checklist) · [Reproduce](#7-reproducibility)
 
@@ -299,6 +300,10 @@ Audit trail, including the original (faulty) pipeline and the step-by-step diagn
   title        = {Does Feature Engineering Improve ATE Estimation in DML?
                   A Controlled Diagnostic Study on Target Leakage},
   year         = {2026},
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.23000327},
+  url          = {https://doi.org/10.5281/zenodo.23000327},
   howpublished = {Preprint / GitHub repository},
   note         = {Negative result; reproducible end to end}
 }
