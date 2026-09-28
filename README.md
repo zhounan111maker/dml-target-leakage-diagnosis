@@ -321,6 +321,8 @@ Audit trail, including the original (faulty) pipeline and the step-by-step diagn
 }
 ```
 
+Author ORCID: [0009-0007-5230-7150](https://orcid.org/0009-0007-5230-7150)
+
 ---
 
 ## License

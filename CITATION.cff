@@ -14,6 +14,7 @@ authors:
   - family-names: Ma
     given-names: Yipeng
     affiliation: "Yinchuan University of Energy"
+    orcid: "https://orcid.org/0009-0007-5230-7150"
 type: software
 license: MIT
 repository-code: "https://github.com/zhounan111maker/dml-target-leakage-diagnosis"
