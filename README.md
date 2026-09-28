@@ -312,11 +312,12 @@ Audit trail, including the original (faulty) pipeline and the step-by-step diagn
                   A Controlled Diagnostic Study on Target Leakage},
   year         = {2026},
   publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.23000327},
-  url          = {https://doi.org/10.5281/zenodo.23000327},
+  doi          = {10.5281/zenodo.23000326},
+  url          = {https://doi.org/10.5281/zenodo.23000326},
   howpublished = {Preprint / GitHub repository},
-  note         = {Negative result; reproducible end to end}
+  note         = {Negative result; reproducible end to end. This is the concept DOI and
+                  always resolves to the latest version; use 10.5281/zenodo.23000327 for
+                  v1.0.0 or 10.5281/zenodo.23010168 for v1.0.1 to cite a specific version.}
 }
 ```
 
